@@ -1,12 +1,12 @@
-Pawfect Match (Rajvi Deeraj R, Surya KP, koushik vishal )
+PAWFECT MATCH (RAJVI DEERAJ R, SURYA KP, KOUSHIK VISHAL S)
 
 Pawfect Match is a caring platform dedicated to connecting pets with loving homes, with a special focus on stray dogs in India. Built using HTML, CSS, JavaScript, and Flask, our lightweight application stores pet information in a JSON file and delivers a smooth, interactive experience. The platform also leverages a Blue-Green Deployment strategy with Docker and Nginx to ensure zero downtime during updates, making adoption simple, reliable, and accessible for everyone. This project implements a DevOps CI/CD pipeline for a web application that helps connect stray pets with adopters, featuring automated deployment and monitoring.
 
-Architecture Diagram
+ARCHITECTURE DIAGRAM
 
 (You can add or sketch this separately)
 
-Tools Used and Justification
+TOOLS USED AND JUSTIFICATION
 
 Git/GitHub: Version control and collaboration
 Jenkins: CI/CD pipeline automation
@@ -17,14 +17,14 @@ Monitoring: (Prometheus/Grafana if implemented)
 Configuration Management: (Ansible, if implemented)
 Infrastructure as Code: (Terraform, if implemented)
 
-CI/CD Pipeline Implementation
+**CI/CD PIPELINE IMPLEMENTATION**
 
 Automated build, test, and deployment using Jenkins
 Automated testing with pytest
 Staging and production environments via Docker
 Blue-green deployment approach using separate containers and ports
 
-Deployment Instructions
+DEPLOYMENT INSTRUCTIONS
 
 Build Docker image: docker build -t pawfect-match:latest .
 Run directly:
@@ -34,7 +34,7 @@ Alternatively, use Docker Compose:
 docker-compose up
 Access production: http://127.0.0.1:5000, staging: http://127.0.0.1:5001
 
-Monitoring and Security
+**MONITORING AND SECURITY**
 
 Monitoring tools (Prometheus/Grafana/ELK) setup details
 DevSecOps practices applied
